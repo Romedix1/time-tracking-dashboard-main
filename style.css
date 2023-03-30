@@ -1,0 +1,415 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 6vw;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    /* outline: auto; */
+}
+
+body
+{
+    background-color: #0d1323;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 90vw;
+    margin-top: 1.5rem;
+    height: 100vh;
+    grid-row-gap: 0.5rem;
+    grid-template-columns: 1fr;
+}
+
+#personal-information
+{
+    background-color: #5746ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+#profile-picture
+{
+    border: 0.14rem solid #fbedff;
+    border-radius: 2rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+#top-name-box-text
+{
+    font-size: 0.6rem;
+    color: #bcb3ff
+}
+
+#name-and-surname
+{
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+
+#nav-timeline
+{
+    display: flex;
+    background-color: #1d204a;
+    z-index: 1;
+    position: relative;
+    top: -2rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    justify-content: center;
+}
+
+#nav-timeline p
+{
+    font-size: 0.7rem;
+    margin-top: 1.95rem;
+    color: #505689;
+}
+
+#nav-timeline p:hover
+{
+    color: #fafdff;
+    cursor: pointer;
+}
+
+#nav-timeline p:nth-child(2)
+{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.box-top-image
+{
+    display: flex;
+    border-radius: 1rem;
+    justify-content: right;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 20vw;
+}
+
+.background-icon
+{
+    margin-right: 1rem;
+    position: relative;
+    top: -0.4rem;
+    width: 3rem;
+}
+
+.box-bottom-content
+{
+    display: flex;
+    position: relative;
+    top: -1.5rem;
+    border-radius: 0.75rem;
+    padding: 0.75rem 0.8rem ;
+    z-index: 2;
+    background-color: #1d204b;
+}
+
+.box-header
+{
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.box-time
+{
+    font-weight: 10;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.box-bottom-right-content
+{
+    width: 50%;
+}
+
+.post-time
+{
+    margin-top: 0.85rem;
+    font-size: 0.7rem;
+    color: #9699ce;
+    text-align: right;
+}
+
+.settings
+{
+    font-size: 1rem;
+    margin-left: 5.9rem;
+}
+
+#work-section
+{
+    background-color: #ff8b64;
+}
+
+#play-section
+{
+    background-color: #56c2e6;
+}
+
+#study-section
+{
+    background-color: #ff5f7c;
+}
+
+#exercise-section
+{
+    background-color: #4bcf83;
+}
+
+#social-section
+{
+    background-color: #7036d1;
+}
+
+#self-care-section
+{
+    background-color: #f1c75b;
+}
+
+#day-container
+{
+    display: none;
+}
+
+#month-container
+{
+    display: none;
+}
+
+.box-bottom-left-content
+{
+    width: 50%;
+}
+
+.active
+{
+    color: #fafdff !important;
+}
+
+@media (min-width:450px) {
+    *
+    {
+        font-size: 4vw;
+    }
+
+    #container
+    {
+        width: 80vw;
+    }
+
+    .box-top-image
+    {
+        height: 15vw;
+    }
+
+    .settings
+    {
+        margin-left: 8.1rem;
+    }
+}
+
+@media (min-width:700px) {
+    *
+    {
+        font-size: 2vw;
+    }
+
+    #container
+    {
+        width: 60vw;
+    }
+
+    .box-top-image
+    {
+        height: 8vw;
+    }
+
+    .settings
+    {
+        margin-left: 12.7rem;
+    }
+}
+
+@media (min-width:1000px) {
+    *
+    {
+        font-size: 1vw;
+    }
+
+    #container
+    {
+        width: 90vw; 
+        height: 20vw;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-column-gap: 2rem;
+        margin-top: 20rem;
+    }
+
+    .dekstop-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-row-gap: 1rem;
+        grid-column-gap: 2rem;
+    }    
+
+    .box-top-image
+    {
+        height: 6vw;
+    }
+    
+    #personal-information
+    {
+        display: block;
+        padding: 2rem;
+        padding-bottom: 6rem;
+    }
+
+    #nav-timeline
+    {
+        display: block;
+    }
+
+    #profile-picture
+    {
+        width: 7rem;
+        border: 0.20rem solid #fbedff;
+        border-radius: 3.5rem;
+    }
+
+    #top-name-box-text
+    {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #name-and-surname
+    {
+        font-size: 3rem;
+    }
+
+    #nav-timeline
+    {
+        padding-bottom: 3rem ;
+    }
+
+    #nav-timeline p
+    {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    #nav-timeline p:nth-child(1)
+    {
+        margin-top: 4rem;
+    }
+
+    #nav-timeline p:nth-child(2)
+    {
+        margin-right: 0rem;
+    }
+
+    .background-icon
+    {
+        width: 6rem;
+    }
+    
+    .box-header
+    {
+        margin: 1rem;
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .box-time
+    {
+        font-size: 4rem;
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+
+    .box-bottom-content
+    {
+        display: block;
+    }
+
+    .settings
+    {
+        position: relative;
+        top: -10rem;
+        left: 5.5rem;
+    }
+
+    .box-bottom-right-content
+    {
+        width: 90%;
+    }
+
+    .post-time
+    {
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+        text-align: left;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width:1000px) {
+    #container
+    {
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width:1800px) {
+    *
+    {
+        font-size: 0.5vw;
+    }
+
+    #container
+    {
+        margin-top: 20rem;
+        width: 60vw;
+    }
+
+    .box-top-image
+    {
+        height: 3vw;
+    }
+
+    #name-and-surname
+    {
+        font-size: 4rem;
+    }
+
+    #nav-timeline
+    {
+        padding-bottom: 2rem ;
+    }
+
+    .settings
+    {
+        left: 13rem;
+    }
+
+    .box-bottom-content
+    {
+        padding-bottom: 1.5rem;
+    }
+}

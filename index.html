@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <title>Time Tracking Dashboard Main</title>
+</head>
+<body>
+
+    <main id="container">
+
+        <aside>
+            <section id="personal-information">
+
+                <article id="photo-box">
+                    <img id="profile-picture" src="images/image-jeremy.png" alt="profile picture">
+                </article>
+
+                <article id="name-box">
+                    <p id="top-name-box-text">Report for</p>
+                    <h1 id="name-and-surname">Jeremy Robson</h1>
+                </article>
+
+            </section>
+
+            <nav id="nav-timeline">
+                <p id="nav-timeline-day">Daily</p>
+                <p id="nav-timeline-week" class="active">Weekly</p>
+                <p id="nav-timeline-month">Monthly</p>
+            </nav>
+        </aside>
+
+        <section id="week-container" class="active dekstop-grid" >
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="work-section">
+                    <img class="background-icon" src="images/icon-work.svg" alt="work icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Work</h1>
+                       
+                        <p class="box-time">32hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="work settings">
+
+                        <p class="post-time">Last Week - 36hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="play-section">
+                    <img class="background-icon" src="images/icon-play.svg" alt="play icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Play</h1>
+                       
+                        <p class="box-time">10hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="play settings">
+
+                        <p class="post-time">Last Week - 8hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="study-section">
+                    <img class="background-icon" src="images/icon-study.svg" alt="study icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Study</h1>
+                       
+                        <p class="box-time">4hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="study settings">
+
+                        <p class="post-time">Last Week - 7hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="exercise-section">
+                    <img class="background-icon" src="images/icon-exercise.svg" alt="exercise icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Exercise</h1>
+                       
+                        <p class="box-time">4hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="exercise settings">
+
+                        <p class="post-time">Last Week - 7hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="social-section">
+                    <img class="background-icon" src="images/icon-social.svg" alt="social icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Social</h1>
+                       
+                        <p class="box-time">5hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="social settings">
+
+                        <p class="post-time">Last Week - 10hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="self-care-section">
+                    <img class="background-icon" src="images/icon-self-care.svg" alt="self care icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Self Care</h1>
+                       
+                        <p class="box-time">2hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="social settings">
+
+                        <p class="post-time">Last Week - 2hrs</p>
+                    </article>
+
+                </article>
+            </section>
+        </section>
+
+        <!-- day -->
+
+        <section id="day-container" class="dekstop-grid">
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="work-section">
+                    <img class="background-icon" src="images/icon-work.svg" alt="work icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Work</h1>
+                       
+                        <p class="box-time">8hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="work settings">
+
+                        <p class="post-time">Last Day - 8hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="play-section">
+                    <img class="background-icon" src="images/icon-play.svg" alt="play icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Play</h1>
+                       
+                        <p class="box-time">2hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="play settings">
+
+                        <p class="post-time">Last Day - 2hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="study-section">
+                    <img class="background-icon" src="images/icon-study.svg" alt="study icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Study</h1>
+                       
+                        <p class="box-time">3hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="study settings">
+
+                        <p class="post-time">Last Day - 3hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="exercise-section">
+                    <img class="background-icon" src="images/icon-exercise.svg" alt="exercise icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Exercise</h1>
+                       
+                        <p class="box-time">4hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="exercise settings">
+
+                        <p class="post-time">Last Day - 4hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="social-section">
+                    <img class="background-icon" src="images/icon-social.svg" alt="social icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Social</h1>
+                       
+                        <p class="box-time">2hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="social settings">
+
+                        <p class="post-time">Last Day - 2hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="self-care-section">
+                    <img class="background-icon" src="images/icon-self-care.svg" alt="self care icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Self Care</h1>
+                       
+                        <p class="box-time">1hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="social settings">
+
+                        <p class="post-time">Last Day - 1hrs</p>
+                    </article>
+
+                </article>
+            </section>
+        </section>
+
+
+        <!-- month -->
+
+        <section id="month-container"  class="dekstop-grid">
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="work-section">
+                    <img class="background-icon" src="images/icon-work.svg" alt="work icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Work</h1>
+                       
+                        <p class="box-time">8hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="work settings">
+
+                        <p class="post-time">Last Month - 160hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="play-section">
+                    <img class="background-icon" src="images/icon-play.svg" alt="play icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Play</h1>
+                       
+                        <p class="box-time">1hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="play settings">
+
+                        <p class="post-time">Last Month - 35hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="study-section">
+                    <img class="background-icon" src="images/icon-study.svg" alt="study icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Study</h1>
+                       
+                        <p class="box-time">4hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="study settings">
+
+                        <p class="post-time">Last Month - 20hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="exercise-section">
+                    <img class="background-icon" src="images/icon-exercise.svg" alt="exercise icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Exercise</h1>
+                       
+                        <p class="box-time">2hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="exercise settings">
+
+                        <p class="post-time">Last Month - 15hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="social-section">
+                    <img class="background-icon" src="images/icon-social.svg" alt="social icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Social</h1>
+                       
+                        <p class="box-time">1hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="social settings">
+
+                        <p class="post-time">Last Month - 29hrs</p>
+                    </article>
+
+                </article>
+            </section>
+
+            <section class="box-top-section">
+                <article class="box-top-image" id="self-care-section">
+                    <img class="background-icon" src="images/icon-self-care.svg" alt="self care icon">
+                </article>
+
+                <article class="box-bottom-content">
+                    
+                    <article class="box-bottom-left-content">
+                        <h1 class="box-header">Self Care</h1>
+                       
+                        <p class="box-time">3hrs</p>
+                    </article>
+                    <article class="box-bottom-right-content">
+                        <img class="settings" src="images/icon-ellipsis.svg" alt="social settings">
+
+                        <p class="post-time">Last Month - 11hrs</p>
+                    </article>
+
+                </article>
+            </section>
+        </section>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
